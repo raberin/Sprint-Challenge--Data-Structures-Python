@@ -48,6 +48,7 @@ class LinkedList:
         currentNode = self.head
         nextNode = None
         prevNode = None
+        # Loop until currentNode becomes None
         while currentNode is not None:
             # Save pointer currentNode.next
             nextNode = currentNode.next_node
@@ -59,3 +60,5 @@ class LinkedList:
             currentNode = nextNode
         # Set prevnode as head
         self.head = prevNode
+
+# Small change for PR

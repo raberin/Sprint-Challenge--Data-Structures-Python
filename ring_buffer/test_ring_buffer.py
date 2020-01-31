@@ -39,7 +39,7 @@ class RingBufferTests(unittest.TestCase):
             self.buffer_2.append(i)
         self.assertEqual(self.buffer_2.get(), [45, 46, 47, 48, 49])
 
-
+# Commented because im not doing stretch
 # class ArrayRingBufferTests(unittest.TestCase):
 #     def setUp(self):
 #         self.buffer = ArrayRingBuffer(5)
